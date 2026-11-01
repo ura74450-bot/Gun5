@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: gunshade-online
-    runtime: node
-    plan: free
-    buildCommand: npm install
-    startCommand: node server.js
-    healthCheckPath: /health
